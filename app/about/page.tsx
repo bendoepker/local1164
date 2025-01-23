@@ -1,13 +1,12 @@
 import React from 'react';
-import Navbar from "../navbar/navbar";
+import Navbar from "../base_components/navbar/navbar";
+import Footer from '../base_components/footer/footer';
 
 export default function About(){
     return (
         <div>
             <Navbar />
-            <ul>
-                <li> Contact 1 </li>
-            </ul>
+            <Footer />
         </div>
     )
 }

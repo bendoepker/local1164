@@ -1,0 +1,22 @@
+@tailwind base:
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #222;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.nonLogo li{
+    display: inline-block;
+    margin-right: 2rem;
+    justify-content: flex-end;
+}

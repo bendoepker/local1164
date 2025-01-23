@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '../navbar/navbar';
+import Navbar from '../base_components/navbar/navbar';
+import Footer from '../base_components/footer/footer';
 
 export default function Contact(){
     return (
         <div>
-            <Navbar />
+            <Navbar name='contact'/>
+            <Footer />
         </div>
     );
 }
