@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { data } from "../../cms";
 
 export default function Footer(){
     return (
@@ -23,10 +24,10 @@ export default function Footer(){
                     <a href='/contact' > Contact </a>
                     <ul>
                         <li>
-                            Contact 1
+                            {data.contacts[0].name} - {data.contacts[0].email}
                         </li>
                         <li>
-                            Contact 2
+                            {data.contacts[1].name} - {data.contacts[1].email}
                         </li>
                     </ul>
                 </h1>

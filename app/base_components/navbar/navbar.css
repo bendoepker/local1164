@@ -13,6 +13,11 @@
     display: flex;
     gap: 2rem;
     padding: 1rem;
+    zIndex: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nonLogo li{
