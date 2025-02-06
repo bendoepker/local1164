@@ -4,7 +4,6 @@ import '../../globals.css'
 
 export default function Navbar(props: any){
     return (
-        <div>
             <nav className="navbar">
                 <div className='logo' style={{width: '40%'}}>
                     <a href="/" style={{display: 'flex', alignItems: 'center'}}>
@@ -38,6 +37,5 @@ export default function Navbar(props: any){
                     </ul>
                 </div>
             </nav>
-        </div>
     )
 }
