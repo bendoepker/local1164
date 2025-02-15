@@ -5,10 +5,8 @@ import '../globals.css';
 
 export default function About(){
     return (
-        <div className="page_container">
-            <Navbar />
-            <div style={{flex: 1}}/>
-            <Footer />
+        <div>
+            About
         </div>
     )
 }

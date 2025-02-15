@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #dddddd;
-  --foreground: #111;
+  --background: white;
+  --foreground: #444;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #444444;
-    --foreground: #eee;
+    --background: #444;
+    --foreground: white;
   }
 }
 
@@ -24,11 +24,4 @@ body {
 @font-face {
     font-family: Ubuntu-B;
     src: url(./fonts/Ubuntu-B.woff);
-}
-
-.page_container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
 }

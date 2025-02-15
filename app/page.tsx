@@ -8,11 +8,9 @@ import './globals.css';
 export default function Home() {
     return (
         <div className="page_container">
-            <Navbar />
             <div style={{flex: 1}}>
                 <Image src={bg} alt="DEFAULT BACKGROUND" />
             </div>
-            <Footer />
         </div>
     );
 }
